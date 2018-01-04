@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<web-app>
+    <servlet>
+        <servlet-name>idx</servlet-name>
+        <servlet-class>com.cobi.Idx</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>idx</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+</web-app>
