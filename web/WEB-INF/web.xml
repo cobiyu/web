@@ -4,6 +4,14 @@
     <servlet>
         <servlet-name>idx</servlet-name>
         <servlet-class>com.cobi.Idx</servlet-class>
+        <init-param>
+            <param-name>id</param-name>
+            <param-value>cobiyu</param-value>
+        </init-param>
+        <init-param>
+            <param-name>pw</param-name>
+            <param-value>123456</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>
